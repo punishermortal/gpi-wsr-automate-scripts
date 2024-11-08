@@ -256,7 +256,7 @@ def main():
     password_mirror = 'mortal@1'
 
 
-    recipient_email = 'dhirajs@triazinesoft.com'
+    recipient_email = 'abhijeetk@triazinesoft.com'
 
     report = DataReport(host_mt, database_mt, user_mt, password_mt, host_mirror, database_mirror, user_mirror, password_mirror, recipient_email)
     report.generate_report()
