@@ -1,4 +1,4 @@
-# gpi-wsr-automate-scripts
+# gpi-wsr-automate-scripts and redme of primary data push is below after 63 line
 
 # Active User Report Generator
 
@@ -59,3 +59,44 @@ server.login('your_email@gmail.com', 'your_email_password_or_app_password')
 # Run the script:
 
 python report_generator.py
+
+
+
+# PRIMARY DATA PUSH
+
+# XLS to JSON Processor with API Integration
+
+This project is a Python-based tool designed to automate the conversion of `.xls` files to JSON format, followed by posting the JSON data to an API and saving the API's response into a CSV file. It is particularly useful for processing batches of `.xls` files from a folder and interacting with REST APIs.
+
+## Features
+
+- Convert `.xls` files to JSON format.
+- Post JSON data to a specified API endpoint.
+- Save API responses as CSV files for further analysis.
+- Logging system to track the progress of the data processing and handle errors.
+
+## Requirements
+
+- Python 3.x
+- The following Python libraries are required:
+  - `pandas`: for handling Excel and CSV file operations.
+  - `requests`: for making HTTP API requests.
+  - `openpyxl`: for reading Excel files.
+  - `logging`: for logging progress and errors.
+
+## Installation
+
+1. Clone the repository or download the script files to your local system:
+
+   ```bash
+   git clone https://github.com/punishermortal/gpi-wsr-automate-scripts.git
+   cd primarydata
+
+# Update the Script
+
+folder_path: str = '/path/to/your/xls/files'
+api_url: str = 'https://api.example.com/v1/endpoint'
+token: str = 'your-api-token'
+
+#  Running the Script
+python data_processor.py
