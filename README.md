@@ -1,0 +1,1 @@
+# gpi-wsr-automate-scripts
